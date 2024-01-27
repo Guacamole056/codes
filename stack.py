@@ -2,7 +2,7 @@ animal = [""] * 20
 colour = [""] * 10
 ColourTopPointer = 0
 AnimalTopPointer = 0
-
+#Checking how this works
 
 def push_animal(DataToPush):
     global AnimalTopPointer
