@@ -24,12 +24,12 @@ def pop_animal():
         return ReturnData
 
 
-def push_colour(DataToPush):
+def push_colour(ItemToPush):
     global ColourTopPointer
     if ColourTopPointer == len(colour):
         return False
     else:
-        colour[ColourTopPointer] = DataToPush
+        colour[ColourTopPointer] = ItemToPush
         ColourTopPointer = ColourTopPointer + 1
         return True
 
